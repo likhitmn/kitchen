@@ -1,0 +1,20 @@
+pipeline {
+    agebt any
+    stages {
+      stage ("build") {
+        steps {
+          echo "Build is successfull...."
+          }
+       }
+       stage ("test") {
+        steps {
+          echo "Test is successfull...."
+        }
+       }
+       stage ("Deploy") {
+        steps {
+          echo "Deploy file is successfull ....."
+        }
+       }
+    }
+}
